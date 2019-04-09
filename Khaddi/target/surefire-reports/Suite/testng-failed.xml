@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="0" name="Test(failed)">
+    <classes>
+      <class name="Autotest.Khaddi.RegistrationTest">
+        <methods>
+          <include name="validate_If_Email_is_formatted"/>
+          <include name="validate_If_password_isEmpty"/>
+          <include name="validate_If_password_Match_confrm_one"/>
+          <include name="validate_If_date_is_Entered"/>
+          <include name="validate_If_password_isToo_short"/>
+          <include name="validate_If_First_name_isEmpty"/>
+          <include name="validate_If_date_is_Formatted"/>
+          <include name="beforeMethod"/>
+          <include name="validate_If_confirm_password_isEmpty"/>
+          <include name="validate_If_Gender_is_Entered"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- Autotest.Khaddi.RegistrationTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
